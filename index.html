@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2>Xcode</h2>
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="form-container">
+        <form id="eventform" class="form" action="#">
+            <h2>EVENT REGISTRATION FORM</h2>
+            <label for="username">Name</label>
+            <div class="input-group">
+                <input type="text" id="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" placeholder="Last Name" required>
+              </div>
+            <br>
+            <div class="company">
+                <label for="company">Company</label><br>
+            <input type="text" id="company" required>
+            <br>
+            </div>
+            <div class="email">
+                <label for="email">Email</label><br>
+            <input type="text" id="email" placeholder="example@email.com" required>
+            </div>
+            <br>
+            <div class="verify">
+                <label >Are you existing customer ?</label>
+                <input type="radio" id="yes" value="yes" required>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" value="no" required>
+                <label for="no">No</label>
+            </div>
+            <br>
+            <div class="submit">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>© 2024 Xcode. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 32px;
+    user-select: none;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 25px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin: 10%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2{
+  display: flex;
+  font-family: cursive;
+  justify-content: center;
+  color: #6a55ea;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-group input[type="text"] {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.company {
+    margin-bottom: 35px;
+}
+
+.company input[type="text"] {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.email {
+    margin-bottom: 25px;
+}
+  
+.email input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.verify {
+    margin-bottom: 25px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"] {
+  text-align: center;
+  background-color: #6a55ea;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #4c3da8;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
